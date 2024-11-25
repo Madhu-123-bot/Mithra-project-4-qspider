@@ -8,7 +8,7 @@ RUN npm install express
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 81
 
 CMD ["node","index.js"]
 
