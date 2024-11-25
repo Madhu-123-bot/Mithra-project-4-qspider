@@ -7,7 +7,7 @@ pipeline {
         KEY_PATH = '/var/lib/jenkins/.ssh/privatekey.pem' // Updated path on Jenkins EC2
         IMAGE_NAME = 'myimage-2'
         CONTAINER_NAME = 'my-container-2'
-        DOCKER_PORT = '81:80'
+        DOCKER_PORT = '81:3000'
     }
 
     stages {
